@@ -4,7 +4,7 @@ const LongFormSection = () => {
       <h1 className="text-xl font-bold tracking-tight sm:text-3xl lg:text-4xl">
         Long Form
       </h1>
-
+<div className="flex flex-col space-y-4 justify-center">
       <iframe
         src="https://www.youtube.com/embed/unVQLKdxzhY"
         className="aspect-video rounded-xl border border-zinc-800 bg-zinc-950 shadow-xl"
@@ -28,6 +28,7 @@ const LongFormSection = () => {
         className="aspect-video rounded-xl border border-zinc-800 bg-zinc-950 shadow-xl"
         allowFullScreen
       />
+      </div>
     </section>
   );
 };
